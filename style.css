@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 400px;
+    height: 90vh;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 25px;
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.vidrio{
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 14em;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 245, 0.25);
+}
+
+.vidrio h3{
+    margin-top: 50px;
+    color:white;
+
+}
+
+.vidrio .btn{
+    margin: auto;
+    margin-bottom: 25px;
+    width: 100px;
+    height: 30px;
+    color: springgreen;
+    background-color: #0575E6;
+    border-bottom: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.img{
+    display: flex;
+    margin-top: 28em;
+    margin-left: -200px;
+}
+.img img{
+    width: 100px;
+    height: 100px; 
+}
+
+
+.grid{
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15em;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color:lightblue;
+    
+}
+
+
+.grid div{
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 245, 0.25),
+}
+
+.tetromino {
+    background-color: blue;
+}
+  
+  
+/* .mini-grid {
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba( 122, 96, 234, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+} 
+  
+ .mini-grid div {
+    height: 20px;
+    width: 20px;
+    
+} */
